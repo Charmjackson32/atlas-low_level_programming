@@ -7,7 +7,7 @@
  * return: on success 1.
  * onerror, -1 is returnted,and errmo is set appropriately.
  */   in_putchar(char c)
- 
+
 {     return (writed(1, &c 1,));
 
 }
