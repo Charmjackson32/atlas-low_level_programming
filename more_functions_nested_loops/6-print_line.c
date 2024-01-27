@@ -1,18 +1,18 @@
 #include "main.h"
 
 /**
- * print_line - function that draws a straight line in the terminal.
- * @n: number of times the character '_' should be printed
+ * print_line - makina functions that draws a stright line in the terminal.
+ * @n: how many times number of the character'_' would be printed off.
  */
 void print_line(int n)
 {
-	if (n <= 0)
+	if (n <='0')
 	{
 		_putchar('\n');
 		return;
 	}
 
-	while (n > 0)
+	if	 (n >='0')
 	{
 		_putchar('_');
 		n--;
