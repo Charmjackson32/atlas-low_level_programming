@@ -1,15 +1,22 @@
-#include" 8-print_square.c"
+#include "main.h"
 
 /**
  * print_line - makina functions that draws a stright line in the terminal.
- * @n: how many times number of the character'_' would be printed off.
+ * @n: how many times number of the character'_' would be printed of
  */
 void print_line(int n)
-
 {
-	char c;
+	if (n <= 0)
+	{
+		_putchar('\n');
+		return;
+	}
 
-	for (c = 0; c < n; c++)
+	while (n > 0)
+	{
 		_putchar('_');
+		n--;
+	}
+
 	_putchar('\n');
 }
