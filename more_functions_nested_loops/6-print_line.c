@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_line - makina functions that draws a stright line in the terminal.
- * @n: how many times number of the character'_' would be printed of
+ * print_line - draws a straight line in the terminal
+ * @n: number of times the character '_' should be printed
  */
 void print_line(int n)
 {
@@ -19,5 +19,4 @@ void print_line(int n)
 	}
 
 	_putchar('\n');
-
 }
